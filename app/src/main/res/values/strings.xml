@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NexGen Hardware</string>
+    <string name="no_acc_signup">Dont have an account?<b> Sign up</b></string>
+    <string name="register_text">By clicking the <font color="@colors/purple">Register</font> button, you agree\nto the public offer</string>
+    <string name="have_acc_login">Already have an account?<b> Login</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
