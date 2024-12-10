@@ -21,10 +21,26 @@ class IntroActivity : BaseActivity() {
         val getStartedBtn: Button = findViewById(R.id.getStartedBtn)
 
         val pages = listOf(
-            IntroViewPagerDataClass("Get ready for", "New Hardware", "If you want stationary products then this is for you!\nHere you can explore the beauty of the world of\nconstruction hardware", R.drawable.img_1),
-            IntroViewPagerDataClass("All types of hardware items", "at one place", "Good Luck", R.drawable.intro_image_2),
-            IntroViewPagerDataClass("Get ready for", "New Hardware", "Welcom back again", R.drawable.img_1)
+            IntroViewPagerDataClass(
+                "Browse Products Easily",
+                "Discover Hardware",
+                "Explore a wide range of hardware tools and accessories with detailed product information and prices at your fingertips.",
+                R.drawable.img_1
+            ),
+            IntroViewPagerDataClass(
+                "All Your Hardware Needs",
+                "In One App",
+                "Find tools, equipment, and materials for your projects. Call us directly to place your order effortlessly.",
+                R.drawable.intro_image_2
+            ),
+            IntroViewPagerDataClass(
+                "Personalized Service",
+                "Order with Ease",
+                "Review products, check prices, and contact our team for assistance. We're here to help with your hardware needs!",
+                R.drawable.img_1
+            )
         )
+
         val adapter = IntroViewPagerAdapter(pages)
         viewPager.adapter = adapter
         if(pages.size>1){
@@ -33,7 +49,7 @@ class IntroActivity : BaseActivity() {
         }
 
         getStartedBtn.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, NavigationActivity::class.java))
         }
 
     }

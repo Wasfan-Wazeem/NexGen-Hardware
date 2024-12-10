@@ -10,8 +10,8 @@ android {
     defaultConfig {
         applicationId = "com.wasfan.nexgenhardware"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 1
+        targetSdk = 34
+        versionCode = 2
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

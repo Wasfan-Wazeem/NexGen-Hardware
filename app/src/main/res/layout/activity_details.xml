@@ -177,7 +177,7 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:background="@drawable/purple_bg"
-            android:text="Buy Now"
+            android:text="Add to cart"
             android:textColor="@color/white"
             android:textSize="18sp" />
 

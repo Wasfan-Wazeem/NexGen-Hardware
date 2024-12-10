@@ -29,12 +29,6 @@ class NavigationActivity : BaseActivity() {
                 R.id.navigation_cart -> {
                     startActivity(Intent(this, CartActivity::class.java))
                 }
-                R.id.navigation_my_order -> {
-                    selectedFragment = MyOrderFragment()
-                }
-                R.id.navigation_profile -> {
-                    selectedFragment = ProfileFragment()
-                }
             }
             selectedFragment?.let {
                 supportFragmentManager.beginTransaction().replace(R.id.fragment_container, it).commit()
