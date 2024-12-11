@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12">
 
         <ImageView
-            android:id="@+id/pic"
+            android:id="@+id/pic1"
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:background="@drawable/grey_bg"
@@ -60,18 +60,18 @@
             android:text="Screw Driver"
             android:textColor="@color/txt_black"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/pic"
+            app:layout_constraintStart_toEndOf="@+id/pic1"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:text="Rs.580.00"
             android:textColor="@color/purple"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/pic"
+            app:layout_constraintStart_toEndOf="@+id/pic1"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/pic" />
+            app:layout_constraintStart_toEndOf="@+id/pic1" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="100dp"
@@ -146,7 +146,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
 
         <ImageView
-            android:id="@+id/pic"
+            android:id="@+id/pic2"
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:background="@drawable/grey_bg"
@@ -157,14 +157,14 @@
             app:srcCompat="@drawable/bosch_drill_1" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:text="Bosch Impact Drill"
             android:textColor="@color/txt_black"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/pic"
+            app:layout_constraintStart_toEndOf="@+id/pic2"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -175,8 +175,8 @@
             android:text="Rs.25,299.00"
             android:textColor="@color/purple"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/pic"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            app:layout_constraintStart_toEndOf="@+id/pic2"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -187,7 +187,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/pic" />
+            app:layout_constraintStart_toEndOf="@+id/pic2" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="100dp"
@@ -198,7 +198,7 @@
             app:layout_constraintEnd_toEndOf="parent">
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textView20"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:layout_margin="2dp"
@@ -211,7 +211,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textView21"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:layout_margin="2dp"
@@ -231,8 +231,8 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView18"
-                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintEnd_toStartOf="@+id/textView20"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -295,7 +295,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/textView22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rs.4,950.00"
